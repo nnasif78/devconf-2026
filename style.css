@@ -1,5 +1,5 @@
 body{
-    width: 1551px;
+    width: 1920px;
     margin: auto;
 }
 .navebar{
@@ -11,6 +11,7 @@ body{
     height: 98px;
 }
 .menu{
+    font-family: "Arimo", sans-serif;
     display: flex;
     list-style: none;
     gap: 50px;
@@ -34,8 +35,6 @@ body{
     border-radius: 10px;
     font-family: "Inter";
     font-weight: bold;
-}
-.navreg button:hover{
     cursor: pointer;
 }
 .logo:hover{
@@ -61,9 +60,11 @@ cursor: pointer;
     margin-bottom: 1px;
 }
 .herotext p {
+    font-family: "Inter", sans-serif;
     max-width: 700px;
     font-size: 22px;
     margin-top: 20px;
+    margin-left: 60px;
 }
 .heroreg button{
     background-color: #1D4ED8;
@@ -77,6 +78,7 @@ cursor: pointer;
     font-family: "Inter";
     font-weight: bold;
     margin-top: 350px;
+    cursor: pointer;
 }
 .speakers-section {
     height: 1322px;
@@ -104,12 +106,10 @@ cursor: pointer;
     border: 2px solid #E5E7EB;
     border-radius: 10px;
     text-align: left;
-
 }
 .speaker-card img {
     width: 642px;
     height: 324px;
-    border-radius: 10px;
 }
 .profession {
     font-family: "Inter", sans-serif;
@@ -134,4 +134,128 @@ cursor: pointer;
 }
 .speaker-card  :hover{
     cursor: pointer;
+}
+.price {
+    height: 718px;
+    text-align: center;
+    padding-top: 100px;
+}
+.price h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.priceuntil {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #575757;
+    margin-top: -20px;
+}
+.priceContainer {
+    width: 1160px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.pricecard {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 35px;
+    text-align: left;
+}
+.plan-type {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+}
+.pricecard h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin: 15px 0 5px;
+}
+.person {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: #888888;
+}
+.pricecard ul {
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 0;
+}
+.pricecard li {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+.pricecard button {
+      width: 250px;
+      height: 50px;
+      border-radius: 10px;
+      margin: 17px;
+}
+
+.standard-btn {
+    
+    background: white;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+.team-btn {
+
+    background: white;
+    color: #0D1B2A;
+
+    border: 1px solid #0D1B2A;
+}
+.pro {
+    background: #0D1B2A;
+}
+.pro .plan-type {
+    color: #93C5FD;
+}
+.pro h3 {
+    color: #FFFFFF;
+}
+.pro .person {
+    color: #888888;
+}
+.pro li {
+    color: #FFFFFF;
+}
+.pro-btn {
+
+    background: #2563EB;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footer {
+
+    height: 145px;
+    background-color: #0D1B2A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.footer p,.footer a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+.footer-links a {
+    text-decoration: none;
 }
