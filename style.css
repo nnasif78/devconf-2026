@@ -1,0 +1,37 @@
+.navebar{
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: rgb(87, 87,87);
+    font-family: "arimo";
+}
+.menu li a {
+    text-decoration: none;
+    color: rgb(87, 87,87) ;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navreg button{
+    background-color: #1D4ED8;
+    color: white;
+    width: 188px;
+    height: 48px;
+    padding: 12px 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: "Inter";
+}
+.navreg button:hover{
+    cursor: pointer;
+}
+.logo:hover{
+cursor: pointer;
+}
