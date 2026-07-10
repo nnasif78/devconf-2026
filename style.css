@@ -78,3 +78,60 @@ cursor: pointer;
     font-weight: bold;
     margin-top: 350px;
 }
+.speakers-section {
+    height: 1322px;
+    text-align: center;
+    padding-top: 100px;
+    text-align: left;
+}
+.speakers-section h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.speaker-container {
+    width: 1321px;
+    height: 1088px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.speaker-card {
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    text-align: left;
+
+}
+.speaker-card img {
+    width: 642px;
+    height: 324px;
+    border-radius: 10px;
+}
+.profession {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563EB;
+    margin-left: 20px;
+}
+.speaker-card h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-left: 20px;
+}
+.designation {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+    margin-left: 20px;
+}
+.speaker-card  :hover{
+    cursor: pointer;
+}
