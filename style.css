@@ -1,6 +1,7 @@
 body{
     width: 1920px;
     margin: auto;
+    font-family: "Inter", sans-serif;
 }
 .navebar{
     display: flex;
@@ -53,14 +54,14 @@ cursor: pointer;
     color: #FFFFFF;
 }
 .herotext h1 {
-    font-family: "Inter", sans-serif;
+    
     font-size: 80px;
     font-weight: bold;
     margin-top: 10;
     margin-bottom: 1px;
 }
 .herotext p {
-    font-family: "Inter", sans-serif;
+    
     max-width: 700px;
     font-size: 22px;
     margin-top: 20px;
@@ -87,7 +88,7 @@ cursor: pointer;
     text-align: left;
 }
 .speakers-section h2 {
-    font-family: "Inter", sans-serif;
+    
     font-size: 56px;
     font-weight: bold;
     color: #0D1B2A;
@@ -112,21 +113,21 @@ cursor: pointer;
     height: 324px;
 }
 .profession {
-    font-family: "Inter", sans-serif;
+    
     font-size: 12px;
     font-weight: 600;
     color: #2563EB;
     margin-left: 20px;
 }
 .speaker-card h3 {
-    font-family: "Inter", sans-serif;
+    
     font-size: 20px;
     font-weight: bold;
     color: #0D1B2A;
     margin-left: 20px;
 }
 .designation {
-    font-family: "Inter", sans-serif;
+    
     font-size: 14px;
     font-weight: 400;
     color: #575757;
@@ -135,6 +136,7 @@ cursor: pointer;
 .speaker-card  :hover{
     cursor: pointer;
 }
+/* <!-- ------------------------------------------AI SECTION STARTS------------------------------------------------- --> */
 .journey-section {
     background: #FFFFFF;
     min-height: 700px;
@@ -142,7 +144,7 @@ cursor: pointer;
     box-sizing: border-box;
 }
 .journey-title {
-    font-family: "Inter", sans-serif;
+    
     font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
@@ -150,7 +152,7 @@ cursor: pointer;
     margin: 0 0 18px;
 }
 .journey-subtitle {
-    font-family: "Inter", sans-serif;
+    
     font-size: 16px;
     color: #575757;
     text-align: center;
@@ -202,20 +204,20 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Inter", sans-serif;
+    
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 16px;
 }
 .journey-content h3 {
-    font-family: "Inter", sans-serif;
+    
     font-size: 20px;
     font-weight: 600;
     color: #0D1B2A;
     margin: 0 0 10px;
 }
 .journey-content p {
-    font-family: "Inter", sans-serif;
+    
     font-size: 14px;
     color: #575757;
     line-height: 1.6;
@@ -231,7 +233,7 @@ cursor: pointer;
     margin-top: auto;
 }
 .journey-features li {
-    font-family: "Inter", sans-serif;
+    
     font-size: 14px;
     color: #0D1B2A;
     display: flex;
@@ -246,11 +248,7 @@ cursor: pointer;
     background: #60A5FA;
     flex-shrink: 0;
 }
-.price {
-    height: 718px;
-    text-align: center;
-    padding-top: 100px;
-}
+
 
 @media (max-width: 768px) {
     .journey-section {
@@ -265,14 +263,20 @@ cursor: pointer;
         max-width: 360px;
     }
 }
+/* <!-- --------------------------------AI SECTION START ends---------------------------- --> */
+.price {
+    height: 718px;
+    text-align: center;
+    padding-top: 100px;
+}
 .price h2 {
-    font-family: "Inter", sans-serif;
+    
     font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
 }
 .priceuntil {
-    font-family: "Inter", sans-serif;
+    
     font-size: 16px;
     color: #575757;
     margin-top: -20px;
@@ -293,20 +297,20 @@ cursor: pointer;
     text-align: left;
 }
 .plan-type {
-    font-family: "Inter", sans-serif;
+    
     font-size: 13px;
     font-weight: 600;
     color: #888888;
 }
 .pricecard h3 {
-    font-family: "Inter", sans-serif;
+    
     font-size: 44px;
     font-weight: bold;
     color: #0D1B2A;
     margin: 15px 0 5px;
 }
 .person {
-    font-family: "Inter", sans-serif;
+    
     font-size: 13px;
     color: #888888;
 }
@@ -316,7 +320,7 @@ cursor: pointer;
     padding: 0;
 }
 .pricecard li {
-    font-family: "Inter", sans-serif;
+    
     font-size: 14px;
     color: #333333;
     margin-bottom: 12px;
@@ -326,6 +330,7 @@ cursor: pointer;
       height: 50px;
       border-radius: 10px;
       margin: 17px;
+      cursor: pointer;
 }
 
 .standard-btn {
@@ -361,22 +366,33 @@ cursor: pointer;
     background: #2563EB;
     color: #FFFFFF;
     cursor: pointer;
+    border: none;
 }
 .footer {
-
-    height: 145px;
     background-color: #0D1B2A;
-    display: flex;
-    align-items: center;
+    height: 100px;
+    padding: 30px 60px;
+
+}
+.footer-top{
+    margin: auto;
+   display: flex;
     justify-content: space-between;
-    padding: 0 60px;
-    margin-top: 100px;
+    align-items: center;
+    padding-bottom:20px ;
+}
+.footer-top img {
+    cursor: pointer;
+}
+.footer-bottom {
+    text-align: center;
 }
 .footer p,.footer a {
-    font-family: "Inter", sans-serif;
+    
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #888888;
+    margin: 0px;
 }
 .footer-links {
     display: flex;
@@ -384,4 +400,10 @@ cursor: pointer;
 }
 .footer-links a {
     text-decoration: none;
+}
+.footer-bottom p {
+    padding-top: 11px;
+    color: #888888;;
+    font-size: 16px;
+
 }
